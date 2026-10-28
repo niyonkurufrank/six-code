@@ -1,0 +1,92 @@
+marquee{
+    background: green;
+    padding: 10px;
+    position: top;
+    bottom: 0;
+    color: white;
+    font-size: 50px;
+    font-family: bold;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: #464242;
+}
+#first-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+#hello {
+    color: #FF9E02;
+    font-size: 40px;
+}
+#names {
+    color: white;
+    font-size: 50px;
+}
+#discribution {
+    color:  white;
+    font-size: 20px;
+    margin-bottom: 20vh;
+}
+#resume {
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+    background: #FF9E02;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#resume:hover {
+    background-color:#7e591d;
+}
+.icons {
+    color: #FF9E02;
+    background-color: transparent;
+    border: 2px solid #FF9E02;
+    padding: 5px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+#about-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #FB9C16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-circle{
+    font-weight:lighter;
+    color: white;
+    font-size: x-large;
+    padding-left: 15vh;
+}
+#circle-image{
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #DD9521;
+    background: #DD9521;
+    border-radius: 50%;
+   
+}
+#photo{
+    width: 100%;
+    height: 100%;
+    background: #DD9521;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;    
+}
+p {
+    font-size: 15px;
+}
